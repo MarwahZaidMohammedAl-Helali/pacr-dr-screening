@@ -1,0 +1,118 @@
+cohort,deploy,method,FOR,violation_rate,workload_reduction,sensitivity,repetitions
+APTOS,10%,Class-conditional conformal,0.0045,0.0,0.2255,0.9898,200
+APTOS,10%,Fixed operating point,0.0045,0.0,0.2522,0.9885,200
+APTOS,10%,Label-shift weighted conformal,0.0067,0.0,0.3932,0.9737,200
+APTOS,10%,PACR (ours),0.0,0.0,0.0,1.0,200
+APTOS,10%,PACR + local prevalence (m=100),0.0001,0.0,0.0016,0.9999,200
+APTOS,10%,PACR + local prevalence (m=200),0.0001,0.0,0.0014,0.9999,200
+APTOS,10%,PACR + local prevalence (m=400),0.0,0.0,0.0005,1.0,200
+APTOS,10%,"PACR, oracle prevalence",0.0002,0.0,0.0053,0.9998,200
+APTOS,10%,Source FOR control,0.0,0.0,0.0,1.0,200
+APTOS,10%,Split conformal,0.013,0.0,0.6885,0.9102,200
+APTOS,5%,Class-conditional conformal,0.0022,0.0,0.2375,0.9898,200
+APTOS,5%,Fixed operating point,0.0022,0.0,0.2656,0.9885,200
+APTOS,5%,Label-shift weighted conformal,0.0037,0.0,0.4654,0.9654,200
+APTOS,5%,PACR (ours),0.0,0.0,0.0,1.0,200
+APTOS,5%,PACR + local prevalence (m=100),0.0006,0.0,0.0386,0.9982,200
+APTOS,5%,PACR + local prevalence (m=200),0.0012,0.0,0.0804,0.9963,200
+APTOS,5%,PACR + local prevalence (m=400),0.0019,0.0,0.1317,0.9939,200
+APTOS,5%,"PACR, oracle prevalence",0.0023,0.0,0.2176,0.9902,200
+APTOS,5%,Source FOR control,0.0,0.0,0.0,1.0,200
+APTOS,5%,Split conformal,0.0062,0.0,0.7217,0.9102,200
+APTOS,native,Class-conditional conformal,0.0274,0.865,0.1521,0.9898,200
+APTOS,native,Fixed operating point,0.0274,0.84,0.1702,0.9885,200
+APTOS,native,Label-shift weighted conformal,0.0274,0.86,0.1561,0.9895,200
+APTOS,native,PACR (ours),0.0,0.0,0.0,1.0,200
+APTOS,native,PACR + local prevalence (m=100),0.0,0.0,0.0,1.0,200
+APTOS,native,PACR + local prevalence (m=200),0.0,0.0,0.0,1.0,200
+APTOS,native,PACR + local prevalence (m=400),0.0,0.0,0.0,1.0,200
+APTOS,native,"PACR, oracle prevalence",0.0,0.0,0.0,1.0,200
+APTOS,native,Source FOR control,0.0,0.0,0.0,1.0,200
+APTOS,native,Split conformal,0.0753,1.0,0.4844,0.9102,200
+DDR,10%,Class-conditional conformal,0.0203,0.625,0.3642,0.9258,200
+DDR,10%,Fixed operating point,0.0209,0.81,0.3992,0.9167,200
+DDR,10%,Label-shift weighted conformal,0.0349,1.0,0.8067,0.7178,200
+DDR,10%,PACR (ours),0.0,0.0,0.0,1.0,200
+DDR,10%,PACR + local prevalence (m=100),0.0002,0.0,0.0019,0.9997,200
+DDR,10%,PACR + local prevalence (m=200),0.0004,0.0,0.0045,0.9992,200
+DDR,10%,PACR + local prevalence (m=400),0.0002,0.0,0.0022,0.9996,200
+DDR,10%,"PACR, oracle prevalence",0.0011,0.005,0.0094,0.9984,200
+DDR,10%,Source FOR control,0.0,0.0,0.0,1.0,200
+DDR,10%,Split conformal,0.0364,1.0,0.8245,0.7002,200
+DDR,5%,Class-conditional conformal,0.0097,0.0,0.3803,0.9258,200
+DDR,5%,Fixed operating point,0.01,0.0,0.4168,0.9167,200
+DDR,5%,Label-shift weighted conformal,0.0201,0.565,0.898,0.6386,200
+DDR,5%,PACR (ours),0.0,0.0,0.0,1.0,200
+DDR,5%,PACR + local prevalence (m=100),0.0022,0.0,0.0657,0.9885,200
+DDR,5%,PACR + local prevalence (m=200),0.0041,0.0,0.1251,0.9777,200
+DDR,5%,PACR + local prevalence (m=400),0.0063,0.0,0.1962,0.9653,200
+DDR,5%,"PACR, oracle prevalence",0.0093,0.0,0.3536,0.9339,200
+DDR,5%,Source FOR control,0.0,0.0,0.0,1.0,200
+DDR,5%,Split conformal,0.0176,0.0,0.8536,0.7002,200
+DDR,native,Class-conditional conformal,0.1324,1.0,0.2516,0.9258,200
+DDR,native,Fixed operating point,0.1353,1.0,0.2766,0.9167,200
+DDR,native,Label-shift weighted conformal,0.1429,1.0,0.3301,0.895,200
+DDR,native,PACR (ours),0.0,0.0,0.0,1.0,200
+DDR,native,PACR + local prevalence (m=100),0.0,0.0,0.0,1.0,200
+DDR,native,PACR + local prevalence (m=200),0.0,0.0,0.0,1.0,200
+DDR,native,PACR + local prevalence (m=400),0.0,0.0,0.0,1.0,200
+DDR,native,"PACR, oracle prevalence",0.0,0.0,0.0,1.0,200
+DDR,native,Source FOR control,0.0,0.0,0.0,1.0,200
+DDR,native,Split conformal,0.217,1.0,0.6208,0.7002,200
+EyePACS,10%,Class-conditional conformal,0.0234,0.855,0.4185,0.9017,200
+EyePACS,10%,Fixed operating point,0.0243,0.96,0.4574,0.8887,200
+EyePACS,10%,Label-shift weighted conformal,0.0655,1.0,0.9356,0.387,200
+EyePACS,10%,PACR (ours),0.0006,0.0,0.008,0.9988,200
+EyePACS,10%,PACR + local prevalence (m=100),0.0004,0.0,0.0051,0.9993,200
+EyePACS,10%,PACR + local prevalence (m=200),0.0002,0.0,0.001,0.9998,200
+EyePACS,10%,PACR + local prevalence (m=400),0.0003,0.0,0.0032,0.9995,200
+EyePACS,10%,"PACR, oracle prevalence",0.0012,0.015,0.01,0.9982,200
+EyePACS,10%,Source FOR control,0.0,0.0,0.0,1.0,200
+EyePACS,10%,Split conformal,0.0522,1.0,0.8738,0.544,200
+EyePACS,5%,Class-conditional conformal,0.0112,0.0,0.4363,0.9017,200
+EyePACS,5%,Fixed operating point,0.0117,0.0,0.4766,0.8887,200
+EyePACS,5%,Label-shift weighted conformal,0.0344,1.0,0.9691,0.333,200
+EyePACS,5%,PACR (ours),0.0052,0.0,0.1799,0.9646,200
+EyePACS,5%,PACR + local prevalence (m=100),0.0024,0.0,0.0815,0.9846,200
+EyePACS,5%,PACR + local prevalence (m=200),0.0044,0.0,0.1502,0.9718,200
+EyePACS,5%,PACR + local prevalence (m=400),0.0073,0.0,0.2586,0.9507,200
+EyePACS,5%,"PACR, oracle prevalence",0.0105,0.0,0.4029,0.9147,200
+EyePACS,5%,Source FOR control,0.0,0.0,0.0,1.0,200
+EyePACS,5%,Split conformal,0.0254,1.0,0.897,0.544,200
+EyePACS,native,Class-conditional conformal,0.051,1.0,0.3831,0.9017,200
+EyePACS,native,Fixed operating point,0.053,1.0,0.4191,0.8887,200
+EyePACS,native,Label-shift weighted conformal,0.1094,1.0,0.8252,0.5469,200
+EyePACS,native,PACR (ours),0.0,0.0,0.0,1.0,200
+EyePACS,native,PACR + local prevalence (m=100),0.0,0.0,0.0,1.0,200
+EyePACS,native,PACR + local prevalence (m=200),0.0,0.0,0.0,1.0,200
+EyePACS,native,PACR + local prevalence (m=400),0.0,0.0,0.0,1.0,200
+EyePACS,native,"PACR, oracle prevalence",0.0,0.0,0.0,1.0,200
+EyePACS,native,Source FOR control,0.0,0.0,0.0,1.0,200
+EyePACS,native,Split conformal,0.1099,1.0,0.8276,0.544,200
+IDRiD,10%,Class-conditional conformal,0.0019,0.0,0.3453,0.9936,200
+IDRiD,10%,Fixed operating point,0.0026,0.0,0.3583,0.9909,200
+IDRiD,10%,Label-shift weighted conformal,0.0063,0.0,0.5288,0.9662,200
+IDRiD,10%,PACR (ours),0.0,0.0,0.0,1.0,200
+IDRiD,10%,PACR + local prevalence (m=100),0.0,0.0,0.0036,1.0,200
+IDRiD,10%,PACR + local prevalence (m=200),0.0,0.0,0.0018,1.0,200
+IDRiD,10%,"PACR, oracle prevalence",0.0,0.0,0.0118,1.0,200
+IDRiD,10%,Source FOR control,0.0,0.0,0.0,1.0,200
+IDRiD,10%,Split conformal,0.0126,0.005,0.727,0.9084,200
+IDRiD,5%,Class-conditional conformal,0.0009,0.0,0.3641,0.9936,200
+IDRiD,5%,Fixed operating point,0.0012,0.0,0.3777,0.9909,200
+IDRiD,5%,Label-shift weighted conformal,0.0039,0.0,0.6321,0.9504,200
+IDRiD,5%,PACR (ours),0.0,0.0,0.0,1.0,200
+IDRiD,5%,PACR + local prevalence (m=100),0.0002,0.0,0.0711,0.999,200
+IDRiD,5%,PACR + local prevalence (m=200),0.0004,0.0,0.1316,0.9977,200
+IDRiD,5%,"PACR, oracle prevalence",0.0009,0.0,0.3379,0.9939,200
+IDRiD,5%,Source FOR control,0.0,0.0,0.0,1.0,200
+IDRiD,5%,Split conformal,0.006,0.0,0.7623,0.9084,200
+IDRiD,native,Class-conditional conformal,0.0274,0.77,0.1469,0.9936,200
+IDRiD,native,Fixed operating point,0.0372,0.895,0.1539,0.9909,200
+IDRiD,native,Label-shift weighted conformal,0.0274,0.77,0.1469,0.9936,200
+IDRiD,native,PACR (ours),0.0,0.0,0.0,1.0,200
+IDRiD,native,PACR + local prevalence (m=100),0.0,0.0,0.0,1.0,200
+IDRiD,native,PACR + local prevalence (m=200),0.0,0.0,0.0,1.0,200
+IDRiD,native,"PACR, oracle prevalence",0.0,0.0,0.0,1.0,200
+IDRiD,native,Source FOR control,0.0,0.0,0.0,1.0,200
+IDRiD,native,Split conformal,0.1614,1.0,0.355,0.9084,200

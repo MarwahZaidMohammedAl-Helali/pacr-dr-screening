@@ -1,0 +1,47 @@
+\begin{table}[!htbp]
+\centering
+\caption{Controlled prevalence shift on EyePACS held-out patients (200 repetitions per prevalence; target FOR $\varepsilon=2\%$, sensitivity floor 90\%, confidence 90\%). FOR: mean false-omission rate among released images; Violations: percentage of repetitions with FOR $>\varepsilon$ (Wilson 95\% CI), which should not exceed 10\%; WR: workload reduction (percentage of images released); Sens.: sensitivity for referable DR.}
+\label{tab:controlled}
+\footnotesize
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+Method & FOR (\%) & Violations (\%) & WR (\%) & Sens. (\%) \\
+\midrule
+\multicolumn{5}{@{}l}{\textit{Deployment prevalence 5\%}} \\
+\quad Fixed operating point & 1.19 & 0 (0--2) & 47.7 & 88.7 \\
+\quad Split conformal & 2.54 & 100 (98--100) & 89.6 & 54.5 \\
+\quad Class-conditional conformal & 1.14 & 0 (0--2) & 43.8 & 89.9 \\
+\quad Label-shift weighted conformal & 3.44 & 100 (98--100) & 96.9 & 33.4 \\
+\quad Source FOR control & 0.00 & 0 (0--2) & 0.0 & 100.0 \\
+\quad \textbf{PACR (ours)} & \textbf{0.36} & \textbf{0 (0--2)} & \textbf{12.3} & \textbf{97.6} \\
+\quad PACR, oracle prevalence & 1.08 & 0 (0--2) & 40.7 & 91.1 \\
+\addlinespace
+\multicolumn{5}{@{}l}{\textit{Deployment prevalence 10\%}} \\
+\quad Fixed operating point & 2.48 & 100 (98--100) & 45.7 & 88.7 \\
+\quad Split conformal & 5.21 & 100 (98--100) & 87.3 & 54.5 \\
+\quad Class-conditional conformal & 2.38 & 92 (88--95) & 42.0 & 89.9 \\
+\quad Label-shift weighted conformal & 6.45 & 100 (98--100) & 93.2 & 39.9 \\
+\quad Source FOR control & 0.00 & 0 (0--2) & 0.0 & 100.0 \\
+\quad \textbf{PACR (ours)} & \textbf{0.02} & \textbf{0 (0--2)} & \textbf{0.3} & \textbf{100.0} \\
+\quad PACR, oracle prevalence & 0.04 & 0 (0--2) & 0.6 & 99.9 \\
+\addlinespace
+\multicolumn{5}{@{}l}{\textit{Deployment prevalence 20\%}} \\
+\quad Fixed operating point & 5.41 & 100 (98--100) & 41.9 & 88.7 \\
+\quad Split conformal & 11.00 & 100 (98--100) & 82.7 & 54.5 \\
+\quad Class-conditional conformal & 5.21 & 100 (98--100) & 38.5 & 89.9 \\
+\quad Label-shift weighted conformal & 10.89 & 100 (98--100) & 82.1 & 55.2 \\
+\quad Source FOR control & 0.00 & 0 (0--2) & 0.0 & 100.0 \\
+\quad \textbf{PACR (ours)} & \textbf{0.00} & \textbf{0 (0--2)} & \textbf{0.0} & \textbf{100.0} \\
+\quad PACR, oracle prevalence & 0.00 & 0 (0--2) & 0.0 & 100.0 \\
+\addlinespace
+\multicolumn{5}{@{}l}{\textit{Deployment prevalence 40\%}} \\
+\quad Fixed operating point & 13.23 & 100 (98--100) & 34.3 & 88.7 \\
+\quad Split conformal & 24.78 & 100 (98--100) & 73.4 & 54.5 \\
+\quad Class-conditional conformal & 12.76 & 100 (98--100) & 31.4 & 89.9 \\
+\quad Label-shift weighted conformal & 17.92 & 100 (98--100) & 54.5 & 75.5 \\
+\quad Source FOR control & 0.00 & 0 (0--2) & 0.0 & 100.0 \\
+\quad \textbf{PACR (ours)} & \textbf{0.00} & \textbf{0 (0--2)} & \textbf{0.0} & \textbf{100.0} \\
+\quad PACR, oracle prevalence & 0.00 & 0 (0--2) & 0.0 & 100.0 \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,18 @@
+\begin{table}[!htbp]
+\centering
+\caption{Discrimination and calibration of the EyePACS-trained classifier, and prevalence estimated from the unlabelled images of each cohort (all images of the cohort, or all EyePACS held-out images) with the moment-matching estimator used by PACR (PACC) and with the maximum-likelihood EM estimator. AUC: area under the ROC curve with 95\% patient-level bootstrap confidence interval; ECE: expected calibration error (15 bins).}
+\label{tab:base}
+\footnotesize
+\begin{tabular}{@{}llrccccc@{}}
+\toprule
+ & & & & & \multicolumn{3}{c}{Prevalence (\%)} \\
+\cmidrule(l){6-8}
+Cohort & Role & Images & AUC (95\% CI) & ECE & True & PACC & EM \\
+\midrule
+EyePACS & internal test & 10,532 & 0.832 (0.820--0.844) & 0.021 & 19.8 & 19.0 & 19.0 \\
+APTOS & external & 3,662 & 0.926 (0.917--0.935) & 0.049 & 40.6 & 87.1 & 80.0 \\
+DDR & external & 12,522 & 0.860 (0.853--0.867) & 0.100 & 44.9 & 60.9 & 56.9 \\
+IDRiD & external & 516 & 0.949 (0.931--0.965) & 0.046 & 62.6 & 100.0 & 86.3 \\
+\bottomrule
+\end{tabular}
+\end{table}

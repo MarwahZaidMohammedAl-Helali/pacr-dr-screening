@@ -1,0 +1,78 @@
+pi,method,FOR,violation_rate,workload_reduction,sensitivity,repetitions
+0.02,Ablation: BBSE prevalence,0.0033,0.0,0.3221,0.9326,200
+0.02,Ablation: EM prevalence,0.0042,0.0,0.4094,0.9135,200
+0.02,Ablation: no sensitivity floor,0.0075,0.0,0.6313,0.6835,200
+0.02,Ablation: plug-in (no bounds),0.0042,0.0,0.4168,0.9114,200
+0.02,Class-conditional conformal,0.0045,0.0,0.4486,0.8994,200
+0.02,Fixed operating point,0.0047,0.0,0.488,0.8865,200
+0.02,Label-shift weighted conformal,0.014,0.0,0.9823,0.312,200
+0.02,PACR (ours),0.0035,0.0,0.3432,0.9282,200
+0.02,"PACR, oracle prevalence",0.0042,0.0,0.4171,0.9113,200
+0.02,Source FOR control,0.0,0.0,0.0,1.0,200
+0.02,Split conformal,0.01,0.0,0.9102,0.5452,200
+0.05,Ablation: BBSE prevalence,0.0034,0.0,0.1171,0.977,200
+0.05,Ablation: EM prevalence,0.0076,0.0,0.2738,0.9429,200
+0.05,Ablation: no sensitivity floor,0.0044,0.035,0.1536,0.9566,200
+0.05,Ablation: plug-in (no bounds),0.0108,0.0,0.4033,0.9125,200
+0.05,Class-conditional conformal,0.0114,0.0,0.438,0.8994,200
+0.05,Fixed operating point,0.0119,0.0,0.4765,0.8865,200
+0.05,Label-shift weighted conformal,0.0344,1.0,0.9692,0.3335,200
+0.05,PACR (ours),0.0036,0.0,0.1235,0.976,200
+0.05,"PACR, oracle prevalence",0.0108,0.0,0.4071,0.9113,200
+0.05,Source FOR control,0.0,0.0,0.0,1.0,200
+0.05,Split conformal,0.0254,1.0,0.8962,0.5452,200
+0.1,Ablation: BBSE prevalence,0.0002,0.0,0.0018,0.9997,200
+0.1,Ablation: EM prevalence,0.0007,0.0,0.009,0.9987,200
+0.1,Ablation: no sensitivity floor,0.0002,0.0,0.0029,0.9996,200
+0.1,Ablation: plug-in (no bounds),0.0183,0.41,0.29,0.9428,200
+0.1,Class-conditional conformal,0.0238,0.925,0.4202,0.8994,200
+0.1,Fixed operating point,0.0248,1.0,0.4574,0.8865,200
+0.1,Label-shift weighted conformal,0.0645,1.0,0.9322,0.3986,200
+0.1,PACR (ours),0.0002,0.0,0.0029,0.9996,200
+0.1,"PACR, oracle prevalence",0.0004,0.0,0.0061,0.9991,200
+0.1,Source FOR control,0.0,0.0,0.0,1.0,200
+0.1,Split conformal,0.0521,1.0,0.873,0.5452,200
+0.2,Ablation: BBSE prevalence,0.0,0.0,0.0,1.0,200
+0.2,Ablation: EM prevalence,0.0,0.0,0.0,1.0,200
+0.2,Ablation: no sensitivity floor,0.0,0.0,0.0,1.0,200
+0.2,Ablation: plug-in (no bounds),0.0207,0.605,0.0687,0.9905,200
+0.2,Class-conditional conformal,0.0521,1.0,0.3847,0.8994,200
+0.2,Fixed operating point,0.0541,1.0,0.4192,0.8865,200
+0.2,Label-shift weighted conformal,0.1089,1.0,0.8211,0.5516,200
+0.2,PACR (ours),0.0,0.0,0.0,1.0,200
+0.2,"PACR, oracle prevalence",0.0,0.0,0.0,1.0,200
+0.2,Source FOR control,0.0,0.0,0.0,1.0,200
+0.2,Split conformal,0.11,1.0,0.8265,0.5452,200
+0.3,Ablation: BBSE prevalence,0.0,0.0,0.0,1.0,200
+0.3,Ablation: EM prevalence,0.0,0.0,0.0,1.0,200
+0.3,Ablation: no sensitivity floor,0.0,0.0,0.0,1.0,200
+0.3,Ablation: plug-in (no bounds),0.0294,0.585,0.0221,0.9969,200
+0.3,Class-conditional conformal,0.086,1.0,0.3492,0.8994,200
+0.3,Fixed operating point,0.0893,1.0,0.381,0.8865,200
+0.3,Label-shift weighted conformal,0.1422,1.0,0.6761,0.678,200
+0.3,PACR (ours),0.0,0.0,0.0,1.0,200
+0.3,"PACR, oracle prevalence",0.0,0.0,0.0,1.0,200
+0.3,Source FOR control,0.0,0.0,0.0,1.0,200
+0.3,Split conformal,0.1748,1.0,0.7801,0.5452,200
+0.4,Ablation: BBSE prevalence,0.0,0.0,0.0,1.0,200
+0.4,Ablation: EM prevalence,0.0,0.0,0.0,1.0,200
+0.4,Ablation: no sensitivity floor,0.0,0.0,0.0,1.0,200
+0.4,Ablation: plug-in (no bounds),0.0392,0.495,0.0114,0.9982,200
+0.4,Class-conditional conformal,0.1276,1.0,0.3137,0.8994,200
+0.4,Fixed operating point,0.1323,1.0,0.3428,0.8865,200
+0.4,Label-shift weighted conformal,0.1792,1.0,0.5447,0.7548,200
+0.4,PACR (ours),0.0,0.0,0.0,1.0,200
+0.4,"PACR, oracle prevalence",0.0,0.0,0.0,1.0,200
+0.4,Source FOR control,0.0,0.0,0.0,1.0,200
+0.4,Split conformal,0.2478,1.0,0.7336,0.5452,200
+0.5,Ablation: BBSE prevalence,0.0,0.0,0.0,1.0,200
+0.5,Ablation: EM prevalence,0.0,0.0,0.0,1.0,200
+0.5,Ablation: no sensitivity floor,0.0,0.0,0.0,1.0,200
+0.5,Ablation: plug-in (no bounds),0.0571,0.485,0.0078,0.9985,200
+0.5,Class-conditional conformal,0.1798,1.0,0.2782,0.8994,200
+0.5,Fixed operating point,0.1861,1.0,0.3046,0.8865,200
+0.5,Label-shift weighted conformal,0.2257,1.0,0.4345,0.8029,200
+0.5,PACR (ours),0.0,0.0,0.0,1.0,200
+0.5,"PACR, oracle prevalence",0.0,0.0,0.0,1.0,200
+0.5,Source FOR control,0.0,0.0,0.0,1.0,200
+0.5,Split conformal,0.3306,1.0,0.6871,0.5452,200
