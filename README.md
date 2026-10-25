@@ -18,7 +18,8 @@ threshold whose FOR is certified to stay below a target, with a minimum sensitiv
 With a 2% FOR target (NPV ≥ 98%), a 90% sensitivity floor and 90% confidence:
 
 - Fixed operating points and split, class-conditional and label-shift weighted conformal
-  prediction exceeded the FOR target in 62–100% of repetitions once prevalence reached 10%.
+  prediction exceeded the FOR target in 92–100% of repetitions once prevalence reached 10%
+  (controlled label shift), and in 77–100% on the public cohorts at their native prevalence.
 - PACR exceeded it in none of 3,800 repetitions (controlled shifts from 2% to 50% prevalence
   and four public cohorts at native, 10% and 5% prevalence).
 - Under pure label shift PACR released 34% of images at 2% prevalence and 12% at 5%.
