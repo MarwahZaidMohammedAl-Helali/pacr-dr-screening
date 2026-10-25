@@ -1,0 +1,14 @@
+# data and cached features are downloaded / regenerated locally
+data/
+features/
+
+# per-repetition result files are large; regenerate with run_experiments.py
+results/*.csv
+!results/base_performance.csv
+!results/summary_*.csv
+
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+*.log
