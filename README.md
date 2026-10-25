@@ -32,8 +32,8 @@ Full tables are in `results/tables/` and the figures in `figures/`.
 Python 3.10 or newer.
 
 ```bash
-git clone https://github.com/MarwahZaidMohammedAl-Helali/<repo>.git
-cd <repo>
+git clone https://github.com/MarwahZaidMohammedAl-Helali/pacr-dr-screening.git
+cd pacr-dr-screening
 pip install -r requirements.txt
 ```
 
