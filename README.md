@@ -1,9 +1,5 @@
 # PACR: prevalence-adaptive conformal rule-out for diabetic retinopathy screening
 
-Code for the paper *Prevalence-adaptive conformal rule-out for diabetic retinopathy
-screening: controlling the false-omission rate of automated triage under prevalence
-shift* (under review).
-
 In rule-out triage, a classifier releases the images it considers non-referable and only
 the rest go to a human grader. Whether this is safe depends on the false-omission rate
 (FOR) among the released images, and the FOR of a fixed threshold changes with the
@@ -60,26 +56,6 @@ python scripts/download_data.py aptos idrid eyepacs ddr
 DDR is about 15 GB at full resolution, so its images are downloaded one by one and
 stored as 512 px crops. Set `PACR_DATA` to put the data somewhere else.
 
-## Reproducing the paper
-
-```bash
-# 1. frozen DINOv2 ViT-S/14 features (about 2 h on a 2-core CPU, mostly EyePACS)
-for d in eyepacs aptos ddr idrid; do python scripts/extract_features.py $d; done
-
-# 2. classifier, all experiments (about 30 min)
-python scripts/run_experiments.py
-
-# 3. coverage of the prevalence bounds
-python scripts/prevalence_coverage.py
-
-# 4. tables and figures
-python scripts/make_tables.py
-python scripts/make_figures.py
-python scripts/method_diagram.py
-```
-
-`run_experiments.py` takes the names of the experiments to run (`base controlled real
-ncal eps`) and `--reps` for a quicker check, e.g. `--reps 20`.
 
 ## Using PACR with your own classifier
 
