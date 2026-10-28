@@ -108,9 +108,7 @@ results/tables/       LaTeX tables of the paper
 figures/              figures of the paper
 ```
 
-## Citation
 
-If you use this code, please cite the paper (details will be added after publication).
 
 ## License
 
